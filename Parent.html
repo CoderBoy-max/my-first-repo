@@ -4,13 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parent Area</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: 0px;
+            font-family: corbel;
+        }
+        .side2{
+            margin-top: 20px;
+            padding: 0px;
+            justify-items: center;
+            backdrop-filter: blur(20px);
+            width: 300px;
+            margin-left: 450px;
+        }
+        .side2 h1{
+            color: #001020;
+            font-weight: 100;
+            text-align: center;
+            margin-left: 0px;
+            margin-top: 150px;
+        }
+        .inputbx input{
+            position: relative;
+            width: 300px;
+            padding: 12px 28px;
+            background: transparent;
+            border: 2px solid rgb(224, 8, 127);
+            border-radius: 40px;
+            font-size: 1em;
+            color: #001020;
+            box-shadow: none;
+            outline: none;
+            margin-top: 20px;
+        }
+        .inputbx input::placeholder{
+            color: #5100d47c;
+        }
+        .btn{
+            position: relative;
+            width: 300px;
+            padding: 12px 28px;
+            background: linear-gradient(40deg, rgb(224, 8, 127),#5100d4);
+            border: none;
+            border-radius: 40px;
+            font-size: 1.2em;
+            color: #5100d4;
+            box-shadow: none;
+            outline: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .btn a{
+            color: #fff;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            margin: 15px;
+            margin-left: 50px;
+            margin-top: 70px;
+            justify-content: center;
+            display: inline-block;
+        }
+        .link{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-top: 20px;
+        }
+        .link a{
+            color: #5100d4;
+            text-decoration: none;
+        }
+        .link a:hover{
+            color: crimson;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
     <div class="side2">
         <h1>PARENT PORTAL</h1>
         <div class="inputbx">
-            <input type="username" placeholder=" Child Mat No.">
+            <input type="text" placeholder="Child Mat No.">
         </div>
         <div class="inputbx">
             <input type="password" placeholder="Password">
@@ -23,89 +105,6 @@
             <a href="#">Parent Area</a>
         </div>
     </div>
-    
 </div>
 </body>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .container{
-        margin: 0px;
-        font-family: corbel;
-    }
-    .side2{
-        margin-top: 20px;
-        padding: 0px;
-        justify-items: center;
-        backdrop-filter: blur(20px);
-        width: 300px;
-        margin-left: 450px;
-    }
-    .side2 h1{
-        color: #001020;
-        font-weight: 100px;
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 150px;
-    }
-    .inputbx input{
-    position: relative;
-    width: 300px;
-    padding: 12px 28px;
-    background: transparent;
-    border: 2px solid rgb(224, 8, 127);
-    border-radius: 40px;
-    font-size: 1em;
-    color: #001020;
-    box-shadow: none;
-    outline: none;
-    margin-top: 20px;
-    }
-    .inputbx input::placeholder{
-        color: #5100d47c;
-    }
-    .btn{
-    position: relative;
-    width: 300px;
-    padding: 12px 28px;
-    background: transparent;
-    border: 2px solid none;
-    border-radius: 40px;
-    font-size: 1.2em;
-    color: #5100d4;
-    box-shadow: none;
-    background: linear-gradient(40deg, rgb(224, 8, 127),#5100d4);
-    outline: none;
-    margin-top: 20px;
-    }
-    .btn a{
-        color: #fff;
-        list-style: none;
-        text-decoration: none;
-        text-align: center;
-        margin: 15px;
-        margin-left: 50px;
-        margin-top: 70px;
-        justify-content: center;
-    }
-    .link{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 20px;
-    }
-    .link a{
-    color: #5100d4;
-    text-decoration: none;
-    }
-    .link a:hover{
-        color: crimson;
-    }
-
-</style>
 </html>
