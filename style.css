@@ -466,3 +466,13 @@ nav{
     justify-content:last baseline;
 
 }
+@media(max-width: 767px){
+.box{
+width: 100%
+    }
+}
+@media(min-width: 768px){
+.box{
+     width: 50%
+   }
+}
